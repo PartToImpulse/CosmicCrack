@@ -880,10 +880,10 @@ if localVersion ~= version then
 end
 
 local Window = Rayfield:CreateWindow({
-    Name = "Cosmic Hub Keyless",
+    Name = "CosmicCrack",
     Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-    LoadingTitle = "Cosmic Hub Keyless",
-    LoadingSubtitle = "Deobfuscated By Flashh",
+    LoadingTitle = "CosmicCrack",
+    LoadingSubtitle = "Deobfuscating Crack",
     Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
  
     DisableRayfieldPrompts = false,
@@ -892,13 +892,13 @@ local Window = Rayfield:CreateWindow({
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, -- Create a custom folder for your hub/game
-       FileName = "Cosmic Hub"
+       FileName = "CosmicCrack"
     },
  
     Discord = {
        Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
        Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
-       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
     },
  
     KeySystem = false, -- Set this to true to use our key system
@@ -909,7 +909,7 @@ local Window = Rayfield:CreateWindow({
        FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
        SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+       Key = {"CosmicCrack"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
     }
  })
 
@@ -925,7 +925,7 @@ local FunTab = Window:CreateTab("Fun / Troll", 10734964441)
 
 local Paragraph = homeTab:CreateParagraph({Title = "UI / Rayfield", Content = "Rayfield library by sirius"})
 local Divider = homeTab:CreateDivider()
-local Paragraph = homeTab:CreateParagraph({Title = "Home!", Content = "Welcome to Cosmic Hub! "..Player.Name.." Thanks for useing script!"})
+local Paragraph = homeTab:CreateParagraph({Title = "Home!", Content = "Welcome to CosmicCrack! "..Player.Name.." Thanks for free crack!"})
 
 local Label = homeTab:CreateLabel("Chill Server / Discord", 10709797725, Color3.fromRGB(10, 10, 10), false) -- Title, Icon, Color, IgnoreTheme
 
